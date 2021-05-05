@@ -20,7 +20,7 @@ body {
     top: 20px;
     height: 80px;
     z-index: 100;
-    background: #585d65;
+    background: #454a50;
     border-radius: 80px;
 }
 
@@ -43,6 +43,31 @@ body {
     height: auto;
     max-width: 240px;
     display: inline-block;
+}
+
+.header .top-menu {
+    margin-right: 50px;
+    float: right;
+}
+
+.header .top-menu ul {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.header .top-menu ul li a {
+    margin-left: 50px;
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+
 }
 
 .top-menu {
@@ -158,6 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
+    margin-left: 42%;
     padding: 15px 25px;
     overflow: hidden;
     display: inline-block;
@@ -299,10 +325,6 @@ hr {
     height: 2px;
     width: 0;
     background: #c6b4e9;
-    transition: all .3s ease 0s;
-    -moz-transition: all .3s ease 0s;
-    -webkit-transition: all .3s ease 0s;
-    -o-transition: all .3s ease 0s;
 }
 
 .skills .progress .percentage .percent {

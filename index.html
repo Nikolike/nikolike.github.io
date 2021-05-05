@@ -9,18 +9,41 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="stylesheet" id="myour-fonts-css" href="https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMr+Dafoe&amp;subset=latin%2Clatin-ext" type="text/css" media="all">
     <title>Nikolike Resume</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="./script/script.js"></script>
 </head>
 <body>
-	<div class="container">
+	<div id="index" class="container">
 		<header class="header">
 			<div class="logo">
-				<a href="./index.html">
+				<a href="#index">
 					<img class="logo-img" src="./img/resumelogo.png" alt="My own logo">
 				</a>
 			</div>
 			<div class="top-menu">
 				<div class="top-menu-nav">
-
+					<ul class="menu">
+						<li>
+							<a href="#about-me">
+								<span>About</span>
+							</a>
+						</li>
+						<li>
+							<a href="#edu">
+								<span>Education</span>
+							</a>
+						</li>
+						<li>
+							<a href="#skills">
+								<span>Skills</span>
+							</a>
+						</li>
+						<li>
+							<a href="#portfolio">
+								<span>Portfolio</span>
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</header>
@@ -33,22 +56,24 @@
 			<div class="section">
 				<h1 class="h-title">
 					<span>
+						Dimitry
+						<br>
 						Nikolike
 					</span>
 				</h1>
-				<div class="started-content">
+				<div id="about-me" class="started-content">
 					<div class="subtitle">
 						<span> Back-End Developer</span>
 					</div>
 					<div class="h-text">
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cumque, quia ea doloribus laudantium facilis suscipit reprehenderit esse nostrum nihil ullam, ipsam cum reiciendis quidem. Non neque cum nam libero.</p>
 					</div>
-					<a href="#" class="btn">
+					<a href="tel:+380993474891" class="btn">
 						<span>CONTACT ME</span>
 					</a>
 					<hr>
 				</div>
-				<div id="#about" class="about">
+				<div class="about">
 					<div class="titles">
 						<h2 class="title">
 							About Me
@@ -63,7 +88,7 @@
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nihil ad veritatis dolorem, earum, rerum asperiores expedita quisquam accusamus esse impedit mollitia ducimus et deserunt molestias eveniet voluptates in praesentium.</p>
 						</div>
 					</div>
-					<div class="info-list">
+					<div id="edu" class="info-list">
 						<ul>
 							<li>
 								<strong>
@@ -117,7 +142,7 @@
 					</div>
 					<hr>
 				</div>
-				<div id="#edu" class="education">
+				<div class="education">
 					<div class="titles">
 						<h2 class="title">
 							Education
@@ -154,7 +179,7 @@
 									<br>Ivano-Frankivsk
 								</span>
 							</div>
-							<div class="text">
+							<div id="skills" class="text">
 								<div>
 									<p>Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
 									</p>
@@ -164,9 +189,9 @@
 					</div>
 				<hr>
 				</div>
-				<div id="#design" class="skills-section">
+				<div class="skills-section">
 					<div class="titles">
-						<h2 class="title">
+						<h2  class="title">
 							Design
 							<br>
 							Skills
@@ -241,7 +266,7 @@
 					</div>
 				<hr>
 				</div>
-				<div id="#language" class="skills-section">
+				<div class="skills-section">
 					<div class="titles">
 						<h2 class="title">
 							Language
@@ -318,7 +343,7 @@
 					</div>
 				<hr>
 				</div>
-				<div id="#coding" class="skills-section">
+				<div class="skills-section">
 					<div class="titles">
 						<h2 class="title">Coding Skills</h2>
 						<div class="subtitle">
@@ -365,7 +390,7 @@
 							</li>
 							<li>
 								<div class="name">
-									HTML,CSS
+									HTML, CSS
 								</div>
 								<div class="progress">
 									<div class="percentage" style="width: 65%;">
@@ -377,7 +402,7 @@
 							</li>
 							<li>
 								<div class="name">
-									MYSQL,POSTGRESQL
+									MYSQL, POSTGRESQL
 								</div>
 								<div class="progress">
 									<div class="percentage" style="width: 60%;">
@@ -401,8 +426,30 @@
 							</li>
 						</ul>
 					</div>
+				<hr>
 				</div>
-			<hr>
+				<div class="portfolio">
+					<div class="titles">
+						<h2 class="title">Portfolio</h2>
+						<div class="subtitle">
+							My Works
+						</div>
+					</div>
+					<div class="lab-works">
+						<ul>
+							<li>
+
+							</li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

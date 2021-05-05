@@ -1,0 +1,24 @@
+.header_line {
+  text-align: center;
+
+}
+.header_line:before {
+  content: "";
+  border-bottom: 5px solid black;
+  width: 50%;
+  height: 0.5em;
+  position: absolute;
+  top: 0px;
+  margin-left: calc(-50% - 10px);
+  padding-top: 24px;
+}
+.header_line:after {
+  content: "";
+  border-bottom: 5px solid black;
+  width: 50%;
+  height: 0.5em;
+  position: absolute;
+  top: 0px;
+  margin-left: 10px;
+  padding-top: 24px;
+}

@@ -1,0 +1,36 @@
+.batery {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 14px;
+    border: 8px solid black;
+    background: white;
+    position: relative;
+}
+.batery::after, .batery::before {
+    content: "";
+    position: absolute;
+}
+.batery::after {
+    width: 20px;
+    height: 50px;
+    background: black;
+    left: 100%;
+    top: 30%;
+}
+
+.batery::before { 
+	height: 100%; 
+}
+
+.red::before {
+    background: #ed1c24;
+    width: 33%;
+}
+.yellow::before {
+    background: #ffc60b;
+    width: 66%;
+}
+.green::before {
+    background: #00a055;
+    width: 100%;
+}
