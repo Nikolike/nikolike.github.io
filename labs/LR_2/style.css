@@ -1,0 +1,258 @@
+body {
+    line-height: 26px;
+    color: #fff;
+    background: #373b40;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.container {
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    padding: 0 0 0 50px;
+    position: fixed;
+    left: 50px;
+    right: 50px;
+    top: 20px;
+    height: 80px;
+    z-index: 100;
+    background: #454a50;
+    border-radius: 80px;
+}
+
+.header .logo {
+    position: relative;
+    float: left;
+    width: 250px;
+    height: 80px;
+    display: flex;
+    font-size: 0;
+    line-height: 1.3;
+    font-weight: 800;
+    color: #fff;
+    align-items: center;
+}
+
+.header .logo-img {
+    margin-right: 15px;
+    width: auto;
+    height: auto;
+    max-width: 240px;
+    display: inline-block;
+}
+
+.header .top-menu {
+    margin-right: 50px;
+    float: right;
+}
+
+.header .top-menu ul {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.header .top-menu ul li a {
+    margin-left: 50px;
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.top-menu {
+    float: right;
+}
+
+.wrapper:before {
+    content: '';
+    position: fixed;
+    left: 45%;
+    right: 50px;
+    top: 0;
+    height: 40px;
+    background: #373b40;
+    z-index: 13;
+}
+
+.background-bg {
+    position: fixed;
+    width: 45%;
+    height: 100%;
+}
+
+.background-filter .background-img {
+    filter: grayscale(100%);
+    mix-blend-mode: luminosity;
+}
+
+.background-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://i.ibb.co/ngv2m55/20210411-102259.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.background-filter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #c6b4e9;
+}
+
+.section {
+    position: relative;
+    padding-left: 49%;
+    padding-right: 5%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.h-title {
+    margin: 40px 0 0 -10vw;
+    padding: 3.2vw;
+    font-size: 3.2vw;
+    line-height: 1.2;
+    font-weight: 800;
+    background: #373b40;
+    border-radius: 264px;
+}
+
+.started-content .about {
+    padding-left: 8%;
+    max-width: 500px;
+}
+
+.subtitle {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #c6b4e9;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 14px;
+    padding: 0;
+    margin: 30px 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+a {
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.h-text {
+    margin: 0 0 30px;
+    font-size: 8px;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: "Poppins";
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    font-size: 1.5em;
+}
+
+hr {
+    margin-top: 50px;
+    border-color: #585d65;
+}
+
+.titles {
+    position: relative;
+    margin: 0 0 30px;
+}
+
+.title {
+    max-width: 70%;
+    font-size: 45px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.list-block ol, ul {
+    margin: 15px 0 15px 15px;
+}
+
+.list-block ol {
+    list-style: decimal;
+}
+
+.list-block ul {
+    list-style: square;
+}
+
+.list-block li {
+    padding-left: 10px;
+    font-size: 1.1em;
+}
+
+.list-block li::marker
+{
+    color: #c6b4e9;
+}
+
+.list-block dt {
+    font-weight: bold;
+    color: #c6b4e9;
+}
+
+.list-block dd {
+    margin-left: 40px;
+}
+
+.alpha {
+    list-style-type: upper-latin;
+}
+
+q {
+    quotes: initial;
+}
+
+q::before{
+    content: open-quote;
+}
+
+q::after {
+    content: close-quote;
+}
+
+.entities {
+    margin-left: -90px;
+    font-size: 14px;
+}

@@ -1,0 +1,167 @@
+
+body {
+    line-height: 26px;
+    color: #fff;
+    background: #373b40;
+    font-family: "Poppins", 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: "Poppins", 'Roboto Condensed', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+a {
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #fff;
+}
+
+hr {
+    margin-top: 50px;
+    border-color: #585d65;
+}
+
+.container {
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* MAIN MENU START */
+
+.header {
+    padding: 0 0 0 50px;
+    position: fixed;
+    left: 50px;
+    right: 50px;
+    top: 20px;
+    height: 80px;
+    z-index: 1000;
+    background: #454a50;
+    border-radius: 80px;
+}
+
+.header .logo {
+    display: flex;
+    position: absolute;
+    float: left;
+    width: 250px;
+    height: 80px;
+    margin-top: 25px;
+}
+
+.header .logo-img {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 45%;
+}
+
+.header .top-menu {
+    margin-right: 50px;
+    float: right;
+}
+
+.header .top-menu ul {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.header .top-menu ul li a {
+    margin-left: 50px;
+    position: relative;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.top-menu {
+    float: right;
+}
+
+/* MAIN MENU END */
+
+.background-bg {
+    position: fixed;
+    width: 45%;
+    height: 100%;
+}
+
+.background-filter .background-img {
+    filter: grayscale(100%);
+    mix-blend-mode: luminosity;
+}
+
+.background-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://i.ibb.co/ngv2m55/20210411-102259.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.background-filter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #c6b4e9;
+}
+
+.section {
+    position: relative;
+    padding-left: 49%;
+    padding-right: 5%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.h-title {
+    margin: 40px 0 0 -10vw;
+    padding: 3.2vw;
+    font-size: 3.2vw;
+    line-height: 1.2;
+    font-weight: 800;
+    background: #373b40;
+    border-radius: 264px;
+}
+
+.titles {
+    position: relative;
+    margin: 0 0 30px;
+}
+
+.title {
+    max-width: 80%;
+    font-size: 45px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.subtitle {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #c6b4e9;
+    font-weight: 600;
+    text-transform: uppercase;
+}
